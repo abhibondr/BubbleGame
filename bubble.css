@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #020617;
+}
+#panel {
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 20px;
+}
+#topPanel {
+  width: 100%;
+  height: 100px;
+  background-color: #fde047;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30%;
+}
+@media only screen and (max-width: 600px) {
+  #topPanel {
+    padding: 0px 8%;
+    gap: 12px;
+  }
+}
+.elem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.elem h2 {
+  color: #1c1917;
+}
+.box {
+  border-radius: 5px;
+  width: 40px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  color: #1a2e05;
+  font-weight: 900;
+  font-size: larger;
+}
+#btmPanel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: #a78bfa;
+  height: calc(100% - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bubble {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+#bubble:hover {
+  background-color: #f87171;
+}
