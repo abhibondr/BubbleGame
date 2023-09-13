@@ -8,3 +8,5 @@ HTML- add Favicon,
 CSS - media query, hover, color shades,
 
 JS - dom manipulation, named Function, event bubbling, setInterval, clearInterval, 
+
+Learn the HTML file by using cmd - Alt L + O
