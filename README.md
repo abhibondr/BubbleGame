@@ -1,10 +1,11 @@
 # BubbleGame
+
 It is a Bubble Game, Tech Used:- HTML, CSS, JS
 
-Concepts Covered:- 
+Concepts Covered:
 
 HTML- add Favicon,
 
-CSS - media query, hover, color shades,
+CSS - media query, hover, colour, shades,
 
-JS - dom manipulation, named Function, event bubbling, setInterval, clearInterval, 
+JS - DOM manipulation, named Function, event bubbling, setInterval, clearInterval,
